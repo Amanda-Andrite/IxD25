@@ -15,6 +15,7 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     gap: 10px;
 }
 
@@ -23,6 +24,7 @@ body {
     border: none;
     padding: 10px;
     text-align: left;
+    width = 100%;
     font-size: 16px;
     cursor: pointer;
     width: 100%;
@@ -36,7 +38,21 @@ body {
     padding: 20px;
     flex-grow: 1;
 }
+.audit {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
 
+.audit-table th, .audit-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+.audit-table thead {
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
 h1 {
     font-size: 32px;
 }
